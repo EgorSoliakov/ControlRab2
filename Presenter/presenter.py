@@ -8,15 +8,11 @@ def start():
         if userInput == '1':
             com.show("all")
         elif userInput == '2':
-            com.show("ID")
-        elif userInput == '3':
-            com.show("date")
-        elif userInput == '4':
             com.show("all")
             com.changeNote()
-        elif userInput == '5':
+        elif userInput == '3':
             com.addNote()
-        elif userInput == '6':
+        elif userInput == '4':
             com.show("all")
             com.delNote()
         else:

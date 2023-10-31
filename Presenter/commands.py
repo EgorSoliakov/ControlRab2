@@ -23,7 +23,7 @@ def show(txt):
               print(Model.Note.Note.map_note(i))
     elif txt == "ID":
         for i in array_notes:
-            print("ID: ", Model.Note.Note.getId(i))
+            print("ID: ", Model.Note.Note.map_note(i))
         id = input("\nВведите id заметки: ")  
         flag = True
         for i in array_notes:
